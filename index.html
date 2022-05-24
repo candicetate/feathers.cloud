@@ -29,7 +29,7 @@
         class="container px-4 mx-auto flex flex-wrap items-center justify-between"
       >
 
-      <div><img src="img/logo.svg" style="width: 50%;" path="fill:#FFFFFF;" /></div> 
+      <div><img src="img/logo-white.png" style="width: 15%;" /></div> 
 
         <ul class="flex flex-row list-none ml-auto">
           <li class="flex items-center">
@@ -44,7 +44,7 @@
           </li>
           <li class="flex items-center">
             <a
-              class="text-white px-3 py-4 flex items-center text-xs uppercase font-bold"
+              class="text-white px-3 py-4 flex items-center text-xs uppercase font-bold top-0"
               href="https://github.com/feathershq" target="_blank"
               ><i
                 class="text-gray-300 fab fa-github text-5xl leading-lg "
@@ -57,27 +57,22 @@
     </nav>
     <main>
       <div
-        class="relative pt-16 pb-32 flex content-center items-center justify-center"
-        style="min-height: 75vh; background-image: url(/img/HeaderOnly-withbackground-01.svg);"
+        class="bottom-auto left-0 right-0 w-full absolute pointer-events-none mt-20 bg-cover bg-center"
+        style="height: 100%; background-image: url('img/HeaderOnly-withbackground-01.svg');"
       >
-        <div
-          class="absolute top-0 w-full h-full bg-center bg-cover bg-gray-700"
-        >
           
         </div>
         <div class="container relative mx-auto">
           <div class="items-center flex flex-wrap">
-            <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-              <h3 class="text-4xl font-semibold pt-8 text-white">We're Coming Soon.</h3>
+            <div class="w-full lg:w-6/12 px-4 mt-40 ml-auto mr-auto text-center">
+              <h3 class="text-4xl font-semibold pt-20 text-white">We're Coming Soon.</h3>
                 <p class="mt-4 text-lg leading-relaxed text-gray-300">
                   Sign up for our Newsletter.
                 </p>
 
-                <form action="https://formsubmit.co/5ee96525769ba175ea419debe4e6a26d" method="POST" class="flex-auto p-5 lg:p-10">
-                  <label for="fname">First name:</label>
+                <form action="https://formsubmit.co/5ee96525769ba175ea419debe4e6a26d" method="POST" class="flex-auto p-5 lg:p-10" style="width: 100%; height: 14rem">
+                  <label for="fname">Name:</label>
                   <input type="text" id="fname" name="fname">
-                  <label for="lname">Last name:</label>
-                  <input type="text" id="lname" name="lname">
                    <label for="lname">Email:</label>
                   <input type="text" id="email" name="email"><br><br>
                   <input type="submit" value="Submit">
@@ -86,35 +81,20 @@
           </div>
         </div>
         <div
-          class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
-          style="height: 70px;"
+          class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none"
+          style="height: 100%;"
         >
         
         </div>
       </div>
      
     </main>
-    <footer class="relative pt-8 pb-6">
-      <div
-        class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-        style="height: 80px; background-image: url('img/FooterOnly-withbackground-01.svg');"
-      >
-        <svg
-          class="absolute bottom-0 overflow-hidden"
-          xmlns="img/FooterOnly-withbackground-01.svg"
-          preserveAspectRatio="none"
-          version="1.1"
-          viewBox="0 0 2560 100"
-          x="0"
-          y="0"
-        >
-        
-        </svg>
-      </div>
+    <footer class="pt-8 pb-6 bottom-0 align-bottom">
+     
 
-      <div><img src="img/logo.svg" style="width: 10%;" path="fill:#FFFFFF;" /></div> 
+      <div><img src="img/logo.svg" style="width: 10%;" /></div> 
 
-      <div class="container mx-auto px-4">
+      <div class="container px-4">
         
         <div class="row">
           <div class="col">
@@ -167,6 +147,13 @@
           </div>
         </div>
       </div>
+
+      <div
+      class="bottom-auto mt-96 left-0 right-0 w-full absolute pointer-events-none bg-cover bg-bottom"
+      style="height: 100%; background-image: url(img/FooterOnly-withbackground-01.svg);"
+    >
+     
+    </div>
     </footer>
   </body>
 
