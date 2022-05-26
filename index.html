@@ -21,44 +21,36 @@
     
     <title>Take Flight</title>
   </head>
-  <body class="text-gray-800 antialiased">
+  <body class="text-white antialiased">
+
+    <!--
+    <div 
+    class="top-0 left-0 right-0 w-full absolute pointer-events-none bg-cover bg-top"
+    style="height: 100%; background-image: url(img/HeaderOnly-no-background-no-bird.svg);"></div>-->
+
     <nav
-      class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 "
+      class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 bg-cover bg-top"
+      style="height: 100%; background-image: url(img/HeaderOnly-no-background-no-bird.svg);"
     >
       <div
-        class="container px-4 mx-auto flex flex-wrap items-center justify-between"
+        class="container top-0 px-4 mx-auto flex flex-wrap items-center justify-between"
       >
 
-      <div><img src="img/logo-white.png" style="width: 15%;" /></div> 
+      
 
-        <ul class="flex flex-row list-none ml-auto">
-          <li class="flex items-center">
-            <a
-              class="text-white px-3 py-4 flex items-center text-xs uppercase font-bold"
-              href="https://twitter.com/feathersjs" target="_blank"
-              ><i
-                class="text-gray-300 fab fa-twitter text-5xl leading-lg "
-              ></i
-              ></a
-            >
-          </li>
-          <li class="flex items-center">
-            <a
-              class="text-white px-3 py-4 flex items-center text-xs uppercase font-bold top-0"
-              href="https://github.com/feathershq" target="_blank"
-              ><i
-                class="text-gray-300 fab fa-github text-5xl leading-lg "
-              ></i
-              ></a
-            >
-          </li>
-        </ul>
+      <div><img src="img/logo-white.png" 
+        class="top-0 absolute w-full flex flex-wrap items-right justify-between px-2 py-3"
+        style="width: 15%;" /></div> 
+
+      
       </div>
     </nav>
-    <main>
+
+    <main class="mt-100">
       <div
         class="bottom-auto left-0 right-0 w-full absolute pointer-events-none mt-20 bg-cover bg-center"
-        style="height: 100%; background-image: url('img/HeaderOnly-withbackground-01.svg');"
+        style="height: 100%; background: rgb(2,0,36);
+        background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(137,61,82,1) 30%, rgba(28,24,53,1) 100%);"
       >
           
         </div>
@@ -84,12 +76,20 @@
           class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none"
           style="height: 100%;"
         >
-        
+        <img src="img/Asset2.svg" 
+        style="width: 15%;" />
         </div>
       </div>
      
     </main>
-    <footer class="pt-8 pb-6 bottom-0 align-bottom">
+    <footer class="pt-8 pb-6 bottom-0">
+
+      <div
+      class="bottom-0 w-full absolute pointer-events-none bg-cover bg-bottom"
+      style="height: 100%; background-image: url(img/FooterOnly-nobackground.svg);"
+    >
+    
+    </div>
      
 
       <div><img src="img/logo.svg" style="width: 10%;" /></div> 
@@ -134,6 +134,7 @@
           </ul></div>
           <div class="col">col</div>
         </div>
+
         
       </div>
       <div class="container mx-auto px-4">
@@ -148,12 +149,7 @@
         </div>
       </div>
 
-      <div
-      class="bottom-auto mt-96 left-0 right-0 w-full absolute pointer-events-none bg-cover bg-bottom"
-      style="height: 100%; background-image: url(img/FooterOnly-withbackground-01.svg);"
-    >
      
-    </div>
     </footer>
   </body>
 
